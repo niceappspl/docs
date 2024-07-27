@@ -1,52 +1,51 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "CodeWave Studio",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
-  "colors": 
-  {
+  "colors": {
     "primary": "#9489f5",
-  "light": "#a7a1f8",
-  "dark": "#7c71d9",
-   "anchors": {
-    "from": "#9489f5",
-    "to": "#a7a1f8"
-  }
+    "light": "#a7a1f8",
+    "dark": "#7c71d9",
+    "anchors": {
+      "from": "#9489f5",
+      "to": "#a7a1f8"
+    }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:help@codewavestudio.io"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Get started",
+    "url": "https://app.codewavestudio.io/"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Documentation",
+      "url": "documentation"
     }
   ],
   "anchors": [
     {
       "name": "Documentation",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "documentation"
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://community.codewavestudio.io"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://blog.codewavestudio.io"
     }
   ],
   "navigation": [
@@ -54,39 +53,42 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "installation",
+        "getting-started"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Features",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "features/developers-tools",
+        "features/JSON-tools",
+        "features/API-tools",
+        "features/code-snippets",
+        "features/SQL-snippets",
+        "features/translations",
+        "features/documentation-management",
+        "features/swagger-tools",
+        "features/links-management",
+        "features/web-summarize",
+        "features/typing-practice",
+        "features/task-time-tracker",
+        "features/markdown-editor",
+        "features/file-converter",
+        "features/plugin-store"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Support",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "FAQ",
+        "Contact",
+        "video-tutorials"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/codewavestudio",
+    "github": "https://github.com/codewavestudio",
+    "linkedin": "https://www.linkedin.com/company/codewavestudio"
   }
 }
